@@ -6,7 +6,7 @@ const doc = {
   info: {
     title: "API Danielbot",
   },
-  host: process.env.HOST || "http://api-danielbot-mern.vercel.app",
+  host: process.env.HOST || "localhost:3000",
   basePath: "/api/v1",
   schemes: process.env.HOST ? "https" : "http",
   consumes: ["application/json"],
